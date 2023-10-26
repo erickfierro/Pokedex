@@ -2,7 +2,7 @@
 
 This project is the first web version of Pokedex https://pokedex-4.netlify.app/
 
-## `Libraries`
+## `Technologies`
 
 * HTML
 * CSS

@@ -54,8 +54,8 @@ function infoPokemon(url) {
                     ${[...json.types.map(tipo => `<button class="tipo-pokemon ${tipo.type.name}" id="${tipo.type.name}">${tipo.type.name.toUpperCase()}</button>`)].join(' ')}
                 </div>
                 <div class="other">
-                    <button class="altura other">${json.height}mt</button>
-                    <button class="peso other">${json.weight}Kg</button>
+                    <button class="altura other">${json.height/10} m</button>
+                    <button class="peso other">${json.weight/10} Kg</button>
                 </div>
                 <a class="ver-mas" href='/tienda_pokemones/detalle.html?${json.name}'>VER MAS</a>
             </div>
